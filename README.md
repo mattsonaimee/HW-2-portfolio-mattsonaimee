@@ -1,2 +1,5 @@
+Homework assignment, week 1.
 
-T
+Created personal portfolio website.
+
+No installation steps
