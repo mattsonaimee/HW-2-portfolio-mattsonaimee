@@ -1,4 +1,4 @@
-Homework assignment, week 1.
+Homework assignment, week 2.
 
 Created personal portfolio website.
 
