@@ -4,7 +4,7 @@ Created personal portfolio website.
 
 No installation steps
 
-![index.html image](http://url/to/img.png)
-![about.html image](http://url/to/img.png)
-![portfolio.html image](http://url/to/img.png)
-![contact.html image](http://url/to/img.png)
+![index.html image](Images\index image.png)
+![about.html image](Images\about image.png)
+![portfolio.html image](Images\portfolio image.png)
+![contact.html image](Images\contact image.png)
