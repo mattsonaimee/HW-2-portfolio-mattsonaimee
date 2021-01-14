@@ -2,9 +2,11 @@ Homework assignment, week 2.
 
 Created personal portfolio website.
 
-No installation steps
+Deployed Links:
+https://jinxdoll.github.io/HW-2-portfolio-mattsonaimee/
+https://github.com/jinxdoll/HW-2-portfolio-mattsonaimee.git
 
-![index.html image](C:\Users\amatt\code\Homework\Assignment 2_Responsive Portfolio\02-Homework\HW-2-portfolio-mattsonaimee\Images\index image.png)
-![about.html image](C:\Users\amatt\code\Homework\Assignment 2_Responsive Portfolio\02-Homework\HW-2-portfolio-mattsonaimee\Images\about image.png)
-![portfolio.html image](C:\Users\amatt\code\Homework\Assignment 2_Responsive Portfolio\02-Homework\HW-2-portfolio-mattsonaimee\Images\portfolio image.png)
-![contact.html image](C:\Users\amatt\code\Homework\Assignment 2_Responsive Portfolio\02-Homework\HW-2-portfolio-mattsonaimee\Images\contact image.png)
+No installation steps
+<img src="Images\website-screenshot-index.png" alt="index-image"/>.
+<img src="Images\website-screenshot-portfolio.png" alt="portfolio-image"/>.
+<img src="Images\website-screenshot-about-.png" alt="about-image"/>.
