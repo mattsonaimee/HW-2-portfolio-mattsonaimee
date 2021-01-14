@@ -1,6 +1,13 @@
-body {
-    padding-top: 3.5rem;
-  }
+* body {
+  padding-top: 3.5rem;
+  content: "";
+  height: 100%;
+  clear: both; 
+  background-color: black;
+  overflow: auto;
+  background: linear-gradient(to top, #63818a 35%, #5b6c72, rgb(129, 129, 129));
+  color:black;
+}
   .jumbotron {
     padding-top: 3rem;
     padding-bottom: 3rem;
