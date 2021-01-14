@@ -2,21 +2,30 @@
   padding-top: 3.5rem;
   content: "";
   height: 100%;
-  clear: both; 
+  clear: both;
   background-color: black;
   overflow: auto;
   background: linear-gradient(to top, #63818a 35%, #5b6c72, rgb(129, 129, 129));
-  color:black;
+  color: black;
 }
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
   .jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}

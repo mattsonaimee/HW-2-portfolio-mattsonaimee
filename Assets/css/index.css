@@ -1,55 +1,47 @@
+* body {
+  content: "";
+  height: 100%;
+  clear: both;
+  background-color: black;
+  overflow: auto;
+  background: linear-gradient(to top, #121c1f 25%, #212729, rgb(129, 129, 129));
+  color: whitesmoke;
+}
 
+#header {
+  background-color: black;
+  text-align: center;
+}
 
-  * body {
-    content: "";
-    height: 100%;
-    clear: both; 
-    background-color: black;
-    overflow: auto;
-    background: linear-gradient(to top, #121c1f 25%, #212729, rgb(129, 129, 129));
-    color:whitesmoke
-  }
+#header-text {
+  padding-top: 17rem;
 
-  #header {
-   
-    background-color: black;
-    text-align: center;
-  }
+  color: white;
+  font-size: 75px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
 
-  
-  #header-text {
-    padding-top: 17rem;  
-  
-    color: white;
-    font-size: 75px;
-    text-align: center;
-font-family: 'Bebas Neue', cursive;
-  }
-  #header-text-lower {
+#header-text-lower {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
 
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-  }
-  #header-button {
+#header-button {
+  color: white;
+  font-size: 30px;
+  font-variant-caps: small-caps;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
 
-    color: white;
-    font-size: 30px;
-    font-variant-caps: small-caps;
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    
-  }
+@media only screen and (min-width: 768px) {
+}
 
+@media only screen and (min-width: 992px) {
+}
 
-  @media only screen and (min-width: 768px) {
-  }
-  
-  @media only screen and (min-width: 992px) {
-  }
-  
-  @media only screen and (min-width: 1200px) {
-  }
-  
-
+@media only screen and (min-width: 1200px) {
+}

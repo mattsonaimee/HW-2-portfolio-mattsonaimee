@@ -1,64 +1,67 @@
 * body {
   content: "";
   height: 100%;
-  clear: both; 
+  clear: both;
   background-color: black;
   overflow: auto;
   background: linear-gradient(to top, #121c1f 35%, #5b6c72, rgb(129, 129, 129));
-  color:whitesmoke
+  color: whitesmoke;
 }
-  
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
+
+#header {
+  padding-top: 3rem;
+
+  color: black;
+  font-size: 75px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+#header-text {
+  text-align: justify;
+
+  color: black;
+  font-size: 30px;
+
+  font-family: "Bebas Neue", cursive;
+}
+#project-text {
+  text-align: justify;
+
+  color: whitesmoke;
+  font-size: 20px;
+
+  font-family: "Roboto", sans-serif;
+}
+#website-link {
+  text-align: center;
+
+  color: rgb(47, 135, 235);
+  font-size: 20px;
+  font-stretch: expanded;
+
+  font-family: "Roboto", sans-serif;
+}
+.footer {
+  padding-top: 3rem;
+}
+
+@media (min-width: 768px) {
   .jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-  
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
+}
+@media only screen and (min-width: 768px) {
+}
 
-  #header{
-   padding-top: 3rem;
-   
-    color:black;
-    font-size: 75px;
-    text-align: center;
-font-family: 'Permanent Marker', cursive;
-  }
-  #header-text {
-    
-    text-align: justify;
-    
-     color:black;
-     font-size: 30px;
-   
- font-family: 'Bebas Neue', cursive;
-   }
-   #project-text {
-    
-    text-align: justify;
-    
-     color: whitesmoke;
-     font-size: 20px;
-   
-     font-family: 'Roboto', sans-serif;
-   }
-   #website-link {
-    
-    text-align: center;
-    
-     color: rgb(47, 135, 235);
-     font-size: 20px;
-     font-stretch: expanded;
-   
-     font-family: 'Roboto', sans-serif;
-   }
-   .footer {
-     padding-top: 3rem;
-   }
+@media only screen and (min-width: 992px) {
+}
 
-
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-  }
+@media only screen and (min-width: 1200px) {
+}
