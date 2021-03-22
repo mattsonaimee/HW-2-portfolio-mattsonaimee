@@ -41,14 +41,11 @@
 #website-link {
   text-align: center;
 
-  color: rgb(47, 135, 235);
+  color: rgb(1, 3, 5);
   font-size: 20px;
   font-stretch: expanded;
 
   font-family: "Roboto", sans-serif;
-}
-.footer {
-  padding-top: 3rem;
 }
 
 @media (min-width: 768px) {
