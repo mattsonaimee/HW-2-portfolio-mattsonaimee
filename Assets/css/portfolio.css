@@ -1,51 +1,85 @@
-* body {
+ body {
   content: "";
   height: 100%;
   clear: both;
-  background-color: black;
+
   overflow: auto;
   background: linear-gradient(to top, #121c1f 35%, #5b6c72, rgb(129, 129, 129));
   color: whitesmoke;
 }
 
-.jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;
+ /* .img{
+max-height: fit-content;
+  min-height:fit-content;
+  max-width: fit-content;
+  min-width: fit-content;
+ }  */
+
+
+#header{
+  padding-top: 4rem;
+  color: black;
+  font-size: 70px;
+  text-align: justify;
+  font-family: "Permanent Marker", cursive;
+ border-width: 10pt;
+ border-bottom:solid;
+ border-color: black;
+  
 }
 
-#header {
+.header-text{
+  padding-top: 4rem;
+  font-family: "Bebas Neue";
+  color: #121c1f;
+  font-size: 40px;
+  text-align: justify;
+  padding-bottom: 6rem;
+
+
+  
+}
+
+.card{
+  background-color: #5b6c72;
+  border-width: 20pt;
+  border:solid;
+  border-color: black;
+  padding-bottom: 1.5rem;
+
+}
+
+
+
+
+.card-title{
   padding-top: 3rem;
 
   color: black;
-  font-size: 75px;
-  text-align: center;
+  font-size: 40px;
+  text-align: justify;
   font-family: "Permanent Marker", cursive;
 }
-#header-text {
+.card-text {
   text-align: justify;
-
   color: black;
-  font-size: 30px;
-
-  font-family: "Bebas Neue", cursive;
-}
-#project-text {
-  text-align: justify;
-
-  color: whitesmoke;
   font-size: 20px;
-
-  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue"
 }
+
 #website-link {
-  text-align: center;
-
-  color: rgb(1, 3, 5);
-  font-size: 20px;
+  text-align: justify;
+  color: rgb(16, 20, 224);
+  font-size: 15px;
   font-stretch: expanded;
-
   font-family: "Roboto", sans-serif;
+text-decoration: underline;
+font-weight: bolder;
+}
+
+.footer{
+  padding-bottom: 3.5rem;
+ 
 }
 
 @media (min-width: 768px) {
