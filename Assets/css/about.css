@@ -1,15 +1,21 @@
 * body {
-  padding-top: 3.5rem;
   content: "";
   height: 100%;
   clear: both;
   background-color: black;
   overflow: auto;
   background: linear-gradient(to top, #121c1f 35%, #5b6c72, rgb(129, 129, 129));
+  color: whitesmoke;
+}
+.title-text{
+  font-family: "Permanent Marker", cursive;
   color: black;
+  font-size: 55px;
+  text-align:start;
+  margin-left: 25pt;
 }
 p.about {
-  color: rgb(28, 28, 29);
+  color: whitesmoke;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: large;
@@ -18,8 +24,9 @@ p.about {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background: linear-gradient(to top, #121c1f 35%, #5b6c72, rgb(129, 129, 129));
 }
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: 6rem;
